@@ -1,4 +1,4 @@
-<nav class="sticky top-0 z-50 border-b border-gray-100 bg-white/95 backdrop-blur">
+<nav class="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/95 backdrop-blur">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
         {{-- Logo --}}
