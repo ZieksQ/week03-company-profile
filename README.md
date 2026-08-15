@@ -117,21 +117,7 @@ routes/web.php
 
 Example:
 
-```php
-Route::get('/', [CompanyController::class, 'home'])
-    ->name('home');
-
-Route::get('/about', [CompanyController::class, 'about'])
-    ->name('about');
-
-Route::get('/services', [CompanyController::class, 'services'])
-    ->name('services');
-
-Route::get('/contact', [CompanyController::class, 'contact'])
-    ->name('contact');
-```
-
-**Screenshot:** Insert a screenshot of `routes/web.php` here.
+<img width="715" height="189" alt="image" src="https://github.com/user-attachments/assets/57802b62-d8ce-4925-85a4-27e969e6c5a7" />
 
 ---
 
@@ -159,33 +145,9 @@ Each page has its own controller method.
 
 Example:
 
-```php
-public function home()
-{
-    return view('pages.home');
-}
-
-public function about()
-{
-    return view('pages.about');
-}
-
-public function services()
-{
-    return view('pages.services');
-}
-
-public function contact()
-{
-    return view('pages.contact');
-}
-```
-
-Each method returns the Blade view associated with the requested page.
-
 ### CompanyController.php
 
-**Screenshot:** Insert a screenshot of `app/Http/Controllers/CompanyController.php` here.
+<img width="850" height="521" alt="image" src="https://github.com/user-attachments/assets/ae09fb48-6930-4d1b-8f97-3b910c907c7d" />
 
 ---
 
@@ -338,11 +300,9 @@ resources/views/
     └── footer.blade.php
 ```
 
-**Screenshot:** Insert a screenshot of `app.blade.php` here.
-
-**Screenshot:** Insert a screenshot of one of the page Blade files here.
-
-**Screenshot:** Insert a screenshot of `navbar.blade.php` or `footer.blade.php` here.
+<img width="709" height="608" alt="image" src="https://github.com/user-attachments/assets/97943a10-87a0-4fde-a484-75578b85037e" />
+<img width="1339" height="658" alt="image" src="https://github.com/user-attachments/assets/bdeffe90-1c5b-4b9b-ac43-95d2973e4703" />
+<img width="1342" height="667" alt="image" src="https://github.com/user-attachments/assets/5696b257-ea1e-4b59-b510-3091056e7d3b" />
 
 ---
 
