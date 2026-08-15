@@ -60,6 +60,8 @@ Some advantages of MVC include:
 - Easier testing and debugging.
 - Multiple developers can work on different parts of the application.
 
+<img width="1408" height="768" alt="mvc_diagram" src="https://github.com/user-attachments/assets/b464444a-5f33-492a-aabb-8b4cfd067935" />
+
 ---
 
 ## 5. Laravel Routing
